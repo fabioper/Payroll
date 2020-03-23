@@ -9,6 +9,10 @@ import javafx.stage.Stage;
 import java.net.URL;
 
 public class PayrollApp extends Application {
+    public static void main(String[] args) {
+        launch(args);
+    }
+
     @Override
     public void start(Stage primaryStage) throws Exception {
         var root = getViewResource("main");
